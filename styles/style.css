@@ -20,6 +20,11 @@
 
  }
 
+ a:hover {
+    background-color: #ad0543;
+    font-size: 1.05em;
+}
+
 
  /* navigation styles */
   nav{
@@ -193,3 +198,4 @@ margin: 50px 590px;
 footer span i{
     margin-left: 16px;
 }
+
