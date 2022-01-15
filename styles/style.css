@@ -36,7 +36,7 @@
   /* start section styles  */
 .start{
     display: flex;
-    position: relative;
+    /* position: relative; */
     top: 50px;
 }
 .texts{
@@ -44,20 +44,25 @@
 }
 .camera-img{
     width: 50%;
-    position: relative;
-    left: 133px;
+    /* position: relative;
+    left: 133px; */
 }
 .camera-img img{
-    position:absolute ;
+    /* position:absolute ; */
 }
 .main-camera{
-    top: 0;
+
+    
+    /* top: 0;
     z-index: 1;
+ */
 }
 
 /* logo section style */
 
 .logos{
+    position: relative;
+    top: 70px;
     display: flex;
 }
 
