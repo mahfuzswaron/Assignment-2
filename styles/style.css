@@ -1,6 +1,8 @@
  /* font family  */
  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
  /* common styles */
 
  body{
@@ -34,13 +36,20 @@
   }
 
   /* start section styles  */
-.start{
+
+
+  .start{
     display: flex;
     /* position: relative; */
     top: 50px;
 }
 .texts{
     width: 50%;
+}
+
+h1{
+    font-size: 52px;
+    font-weight: 700;
 }
 .camera-img{
     width: 50%;
@@ -71,6 +80,86 @@
     padding: 40px 30px;
 }
 
+/* popular-section styles */
+
+.popular-sec{
+    width: 1047px;
+    height: 1662px;
+    margin-left: 196px ;
+}
+.popular-sec > h2{
+    text-align: center;
+}
+
+.collectoins{
+display: grid;
+grid-template-columns: repeat( 3, 1fr);
+justify-content:space-between;
+}
+
+.collectoin{
+    width: 329px;
+    height: 479px;
+    background-color: white;
+    box-shadow: 5px 10px rgba(136, 136, 136, 0.365);
+
+}
+.collectoin img{
+    width: 300px;
+    height: 256px;
+    padding: 40px;
+}
+#photoshoot{
+    width: 300px;
+    height: 256px;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.collectoin h2{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.collectoin h3{
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+
+}
+
+.collectoin .rating-num{
+    font-family: Inter;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+}
+
+.collectoin p{
+    font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+}
 
 
+
+.fa-star, .fa-star-half-alt{
+ color: #FB8200;
+}
+
+.see{
+    margin-right: 0;
+    margin-left: 900px;
+    
+}
+
+/* subscribe for newslette */
 
