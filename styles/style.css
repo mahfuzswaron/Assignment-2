@@ -180,3 +180,16 @@ font-weight: bold;
 font-size: 38px;
 }
 
+footer{
+    width: 1440px;
+    height: 239px;
+    background-color: #0A0826;
+    text-align: center;
+    color: white;
+}
+.footer-content{
+margin: 50px 590px;
+}
+footer span i{
+    margin-left: 16px;
+}
