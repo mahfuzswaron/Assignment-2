@@ -27,7 +27,12 @@
 
 
  /* navigation styles */
-  nav{
+ 
+ #nav-phone{
+     display: none;
+ }
+ 
+ nav{
       display: flex;
     justify-content: space-between;
     align-items: center;
@@ -198,4 +203,36 @@ margin: 50px 590px;
 footer span i{
     margin-left: 16px;
 }
+@media only screen and (max-width: 768px){
+    
+    body{
+        width: 100%;
+    }
+    .start{
+        flex-direction: column;
+        text-align: center;
+        width: fit-content;
+        margin: auto;
+    }
+    .logos{
+        flex-wrap: wrap;
+    }
+    nav{
+        display: none;
+    }
+    #nav-phone{
+        display: flex;
+        width: fit-content;
+    }
+    
+    .popular-sec{
+        width: 100%;
+    }
+    .collectoins{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat( 1, 1fr);
+        justify-content:space-between;
+        }
 
+}
