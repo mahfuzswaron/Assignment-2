@@ -7,6 +7,18 @@
      font-family: 'poppins';
  }
 
+ a{
+     background-color: #E02C6D;
+     padding: 10px 24px ;
+     border-radius: 50px;
+     font-size: 16px;
+     font-weight: 700;
+     text-decoration: none;
+     color: white;
+
+ }
+
+
  /* navigation styles */
   nav{
       display: flex;
@@ -24,7 +36,29 @@
   /* start section styles  */
 .start{
     display: flex;
-    justify-content: center;
-    
+    position: relative;
+    top: 50px;
 }
+.texts{
+    width: 50%;
+}
+.camera-img{
+    width: 50%;
+    position: relative;
+    left: 133px;
+}
+.camera-img img{
+    position:absolute ;
+}
+.main-camera{
+    top: 0;
+    z-index: 1;
+}
+
+/* logo section style */
+
+.logos{
+    display: flex;
+}
+
 
