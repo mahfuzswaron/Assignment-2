@@ -7,6 +7,7 @@
 
 body{
     font-family: 'poppins';
+    margin: 0;
 }
 
 a{
@@ -92,20 +93,22 @@ h1{
 display: grid;
 grid-template-columns: repeat( 3, 1fr);
 justify-content:space-between;
+grid-gap: 14px;
 
 }
 
 .collectoin{
    width: 329px;
    height: 479px;
-   background-color: white;
-   box-shadow: 5px 10px rgba(136, 136, 136, 0.365);
+   background-color: rgb(255, 255, 255);
+   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
 
 }
 .collectoin img{
    width: 300px;
    height: 256px;
-   padding: 40px;
+   padding: 14px;
 }
 #photoshoot{
    width: 300px;
@@ -201,3 +204,56 @@ footer i{
 /* Mobile phone 
 */
 
+@media only screen and (max-width: 768px) {
+    
+    nav{
+        display: none;
+    }
+
+    #nav-phone{
+        display: flex;
+        justify-content: space-around;
+    }
+    .start{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 10px;
+    }
+    .camera-img{
+        width: 100%;
+     }
+    .texts{
+        width: 100%;
+        text-align: center;
+     }
+
+     .logos{
+         display: flex;
+         flex-wrap: wrap;
+         
+     }
+
+     .collectoins{
+         display: flex;
+         flex-direction: column;
+         flex-wrap: wrap;
+
+     }
+    .see{
+         margin: 0;
+    }
+
+    .subscribe-sec{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .image{
+        width: 100%;
+        position: relative;
+        left: -92px;
+    }
+
+}
