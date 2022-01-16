@@ -220,7 +220,14 @@ footer i{
         justify-content: center;
         row-gap: 10px;
     }
+    
     .camera-img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .camera-img img{
         width: 100%;
      }
     .texts{
@@ -254,6 +261,51 @@ footer i{
         width: 100%;
         position: relative;
         left: -92px;
+    }
+
+}
+
+/* tablet view
+-------------- */
+
+@media only screen and (min-width:768px ){
+
+
+    .start{
+        display: flex;
+        
+        justify-content: center;
+        row-gap: 10px;
+    }
+    .camera-img{
+        width: 100%;
+     }
+    .texts{
+        width: 100%;
+        text-align: center;
+     }
+
+     .logos{
+         display: flex;
+         flex-wrap: wrap;
+         
+     }
+
+     #collectoins{
+         display:grid;
+         grid-template-columns: 2, 1fr;
+         grid-gap: 10px;
+
+     }
+    .see{
+         margin: 0;
+    }
+
+    .subscribe-sec{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 30px;
     }
 
 }
